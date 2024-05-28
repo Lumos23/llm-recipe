@@ -22,7 +22,7 @@ class train_config:
     mixed_precision: bool=True
     val_batch_size: int=1
     dataset = "samsum_dataset"
-    peft_method: str = "lora" # None , llama_adapter, prefix
+    peft_method: str = "None" # None , llama_adapter, prefix
     use_peft: bool=False
     output_dir: str = "finetuned_models"
     freeze_layers: bool = False
